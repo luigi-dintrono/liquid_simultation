@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquid Simulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="controls">
+      <h2>Controls</h2>
+      <label>Density Dissipation
+        <input id="density" type="range" min="0" max="1" step="0.01" value="0.98">
+      </label>
+      <label>Velocity Dissipation
+        <input id="velocity" type="range" min="0" max="1" step="0.01" value="0.99">
+      </label>
+      <label>Pressure Dissipation
+        <input id="pressure" type="range" min="0" max="1" step="0.01" value="0.8">
+      </label>
+      <label>Curl
+        <input id="curl" type="range" min="0" max="50" step="0.1" value="30">
+      </label>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
