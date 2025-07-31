@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+}
+
+#controls {
+  width: 200px;
+  padding: 1rem;
+  background: #222;
+}
+
+#controls label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+#canvas {
+  flex: 1;
+  display: block;
+}

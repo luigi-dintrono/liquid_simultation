@@ -1,22 +1,11 @@
 # 🌊 Liquid Simulation Web App
 
-This is a real-time liquid simulation built for the browser using WebGL and JavaScript. It demonstrates fluid dynamics through GPU-accelerated rendering.
+This project is a simple liquid simulation written in plain JavaScript. It features interactive sliders so you can tweak the physics in real time.
 
 ## 🚀 Features
-
-- Real-time particle-based fluid simulation
-- Responsive design for web
-- Adjustable parameters like viscosity and velocity
-
-## 🛠️ Tech Stack
-
-- HTML5 + CSS3
-- JavaScript
-- WebGL / Three.js
+- Real-time 2D fluid simulation
+- Adjustable parameters for diffusion, viscosity, time step and curl
+- Drag the mouse on the canvas to disturb the liquid
 
 ## 📦 Getting Started
-
-```bash
-npm install
-npm run dev
-
+Simply open `index.html` in a modern web browser. No build step or additional dependencies are required.
