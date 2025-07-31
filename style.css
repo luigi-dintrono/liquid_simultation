@@ -22,7 +22,11 @@ body {
   font-size: 0.9rem;
 }
 
-#canvas {
+#scene {
   flex: 1;
+  position: relative;
+}
+
+#scene canvas {
   display: block;
 }
